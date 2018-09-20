@@ -105,8 +105,7 @@ public class Pong {
 			}
 			
 			
-			Window.out.print("0", 60, 60);
-			Window.out.print("1", Window.width() - 100, 60);
+	
 			
 			drawBall(x, y, radius);
 			drawPaddle(p1x, p1y, pw, ph);
